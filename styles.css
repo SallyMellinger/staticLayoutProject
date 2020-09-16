@@ -1,0 +1,178 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color:white;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 50px;
+}
+h2{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color:white;
+    font-size: 20px;
+}
+
+h3{
+    font-weight:450;
+    font-size: 30px;
+}
+
+
+.headerOne{
+    background-image: url("Assets/gradient-violet-bg.jpg");
+    position: relative;
+    height: 590px;
+    width: auto;
+    background-size: 100%;
+    padding: 0px;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    align-content: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation{
+    padding-left: 450px;
+}
+
+#logo {
+    width: 201px;
+    height: auto;
+}
+
+li{
+    display: inline;
+    color: white;
+    padding: 30px;
+}
+
+.openKast{
+    border: white solid 1px;
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+}
+
+a:link{
+    text-decoration: none;
+    text-emphasis: none;
+    color: white
+
+}
+
+.laptopBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+img.laptop{
+    width: 305px;
+    height: 180px;
+}
+
+.watchPartyHeader{
+    color:white;
+    font-size: 22px;
+    font-weight: 100;
+    align-self: center;
+    text-align: center;
+    height: 100px;
+
+}
+
+.watchPartyContent{
+    width: 500px;
+    align-self: center;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom:30px;
+}
+
+.orangeButton{
+    width: 215px;
+    height: 39px;
+    background-color: #FE9000;
+    font-size: 16px;
+    font-weight: 450;
+    text-align: center;
+    line-height: 6px;
+    border-radius: 2px;
+    letter-spacing: 1.44px;
+}
+.featuredIn{
+    height:590px;
+    width: auto;
+    color: #434146;
+    padding-top: 75px;
+    background: #f4fafa;
+}
+
+.ftHead{
+    margin: auto;
+    width: 50%;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.ftLogos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+.logoList{
+    padding-right: 80px;
+    padding-left: 50px;
+    padding-bottom:100px;
+}
+
+.logoListB{
+    padding-right: 80px;
+    padding-left: 50px;
+    padding-bottom:50px;
+}
+
+.quote{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+#quoteName{
+    font-size: 16px;
+    text-align: end;
+    font-weight: 300;
+    font-style: italic;
+    margin: auto;
+    width: 50%;
+    text-align: right;
+}
